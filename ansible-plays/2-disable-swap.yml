@@ -1,0 +1,14 @@
+- hosts: all
+  become: yes
+  tasks:
+   # https://opensource.com/article/18/9/swap-space-linux-systems
+   - name: Disable swap memory usage 
+     shell: swapoff -a
+
+   # https://www.mydailytutorials.com/uncommentcomment-lines-files-using-ansible/
+   - name: Disable permanently by commenting out the swap file in /etc/fstab
+     replace:
+       path: /etc/fstab
+       regexp : '(.*none\s+swap.*)'
+       replace: '#\1'
+       backup: yes
