@@ -37,3 +37,20 @@
 
    - name: Exclude all Kubernetes packages from any system upgrades
      shell: apt-mark hold kubelet kubeadm kubectl
+
+   - name: Configure cgroup driver used by kubelet on control-plane node
+     copy:
+       dest: /var/lib/kubelet/config.yaml
+       content:  |
+         apiVersion: kubelet.config.k8s.io/v1beta1
+         kind: KubeletConfiguration
+         cgroupDriver: systemd
+       owner: root
+       group: root
+       mode: '0644'
+
+   - name: Reload configuration
+     shell: systemctl daemon-reload
+
+   - name: Restart kubelet
+     shell: systemctl restart kubelet
