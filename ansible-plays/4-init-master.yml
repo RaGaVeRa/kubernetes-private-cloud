@@ -2,7 +2,7 @@
   become: yes
   tasks:
     - name: Initialize the cluster
-      shell: kubeadm init --pod-network-cidr=192.168.0.0/16 --control-plane-endpoint=mile-kubernetes-master --cri-socket=/var/run/containerd/containerd.sock >> cluster_initialized.txt
+      shell: kubeadm init --pod-network-cidr=192.168.0.0/16 --control-plane-endpoint=ragavera-kubernetes-master --cri-socket=/var/run/containerd/containerd.sock >> cluster_initialized.txt
       args:
         chdir: $HOME
         creates: cluster_initialized.txt
