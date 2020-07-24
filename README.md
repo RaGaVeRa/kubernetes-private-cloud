@@ -64,7 +64,7 @@ Steps
     * [How do I set my DNS when resolv.conf is being overwritten?](https://unix.stackexchange.com/questions/128220/how-do-i-set-my-dns-when-resolv-conf-is-being-overwritten/163506#163506)
 * [How to apt-delete-repository?](https://unix.stackexchange.com/questions/219341/how-to-apt-delete-repository)
 * [Tear down / clean up Kubernetes cluster](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#tear-down)
-* Use `crictl` to manually list, stop, remove pods
+* [Use `crictl` to manually list, stop, remove pods](https://kubernetes.io/docs/tasks/debug-application-cluster/crictl/)
   - List pods `$ sudo crictl -r /var/run/containerd/containerd.sock pods`
   - Stop one or more running pods `$ sudo crictl -r /var/run/containerd/containerd.sock stopp <pod-id>`
   - Remove one or more pods `$ sudo crictl -r /var/run/containerd/containerd.sock rmp <pod-id>`
