@@ -14,9 +14,10 @@
 
 # 1. Install Containerd
 Containerd replaces docker-ce as the container runtime in Kubernetes
-  - [IBM Cloud Kubernetes Service Supports containerd](https://www.ibm.com/cloud/blog/ibm-cloud-kubernetes-service-supports-containerd)
-  - [Kubernetes Containerd Integration Goes GA](https://kubernetes.io/blog/2018/05/24/kubernetes-containerd-integration-goes-ga/)
+- [IBM Cloud Kubernetes Service Supports containerd](https://www.ibm.com/cloud/blog/ibm-cloud-kubernetes-service-supports-containerd)
+- [Kubernetes Containerd Integration Goes GA](https://kubernetes.io/blog/2018/05/24/kubernetes-containerd-integration-goes-ga/)
 
+Steps
 * [Install containerd as CRI runtime](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#containerd)
 * [Change default cgroup driver to systemd](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#cgroup-driver)
   - [Set `plugins.cri.systemd_cgroup = true` in `/etc/containerd/config.toml`](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#systemd)
@@ -67,3 +68,4 @@ Containerd replaces docker-ce as the container runtime in Kubernetes
   - List pods `$ sudo crictl -r /var/run/containerd/containerd.sock pods`
   - Stop one or more running pods `$ sudo crictl -r /var/run/containerd/containerd.sock stopp <pod-id>`
   - Remove one or more pods `$ sudo crictl -r /var/run/containerd/containerd.sock rmp <pod-id>`
+* [sudo apt-get update failing - “could not open” list file due to “permission denied”](https://askubuntu.com/questions/917603/sudo-apt-get-update-failing-could-not-open-list-file-due-to-permission-deni)
