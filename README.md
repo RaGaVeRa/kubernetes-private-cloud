@@ -1,9 +1,9 @@
-# kubernetes-private-cloud
-Setting up our own Kubernetes/Containers Private Cloud 
+# Setting up our own Kubernetes/Containers based Private Cloud 
 
 # References
 * [How to Install and Deploy Kubernetes on Ubuntu 16.04](https://dzone.com/articles/how-to-install-and-deploy-kubernetes-on-ubuntu-160-1)
 * [How To Create a Kubernetes Cluster Using Kubeadm on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-cluster-using-kubeadm-on-ubuntu-16-04)
+* [Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
 
 # Preparation
 0) [Change Hostname in Ubuntu 16.04 Without Restart](http://ubuntuhandbook.org/index.php/2016/06/change-hostname-ubuntu-16-04-without-restart/)
@@ -22,6 +22,7 @@ Setting up our own Kubernetes/Containers Private Cloud
 
 ## Other useful references
 * [Using Variables in Ansible such as `{{ansible_distribution_release}}`](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html)
+* [Use SSH Keys With PuTTY On Windows](https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/)
 
 # Troubleshooting
 
