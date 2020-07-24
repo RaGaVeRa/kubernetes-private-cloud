@@ -1,19 +1,18 @@
 # Setting up our own Kubernetes/Containers based Private Cloud 
 
-# References
+# Tutorials
 * [How to Install and Deploy Kubernetes on Ubuntu 16.04](https://dzone.com/articles/how-to-install-and-deploy-kubernetes-on-ubuntu-160-1)
 * [How To Create a Kubernetes Cluster Using Kubeadm on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-cluster-using-kubeadm-on-ubuntu-16-04)
-* [Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
 
-# Preparation
-0) [Change Hostname in Ubuntu 16.04 Without Restart](http://ubuntuhandbook.org/index.php/2016/06/change-hostname-ubuntu-16-04-without-restart/)
-1) [Setting up key-based authentication in SSH](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys#generating-and-working-with-ssh-keys)
-2) [Enable `sudo` without password in Ubuntu/Debian](https://phpraxis.wordpress.com/2016/09/27/enable-sudo-without-password-in-ubuntudebian/)
-3) [Install Ansible - an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+# 0. Preparation
+* [Change Hostname in Ubuntu 16.04 Without Restart](http://ubuntuhandbook.org/index.php/2016/06/change-hostname-ubuntu-16-04-without-restart/)
+* [Setting up key-based authentication in SSH](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys#generating-and-working-with-ssh-keys)
+* [Enable `sudo` without password in Ubuntu/Debian](https://phpraxis.wordpress.com/2016/09/27/enable-sudo-without-password-in-ubuntudebian/)
+* [Install Ansible - an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
   - [Configuration Management 101: Writing Ansible Playbooks](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-ansible-playbooks)
   - [Getting Started With Kubernetes Operators (Ansible Based)](https://medium.com/velotio-perspectives/getting-started-with-kubernetes-operators-ansible-based-part-2-472eb0d453b7)
 
-# Install Containerd
+# 1. Install Containerd
 * Containerd replaces docker-ce as the container runtime in Kubernetes
   - [IBM Cloud Kubernetes Service Supports containerd](https://www.ibm.com/cloud/blog/ibm-cloud-kubernetes-service-supports-containerd)
   - [Kubernetes Containerd Integration Goes GA](https://kubernetes.io/blog/2018/05/24/kubernetes-containerd-integration-goes-ga/)
@@ -22,11 +21,12 @@
   - [Set `plugins.cri.systemd_cgroup = true` in `/etc/containerd/config.toml`](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#systemd)
   - [Manually configure the cgroup driver used by kubelet](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#configure-cgroup-driver-used-by-kubelet-on-control-plane-node)
 
-# Setup Kubernetes using kubeadm
+# 2. Setup Kubernetes using kubeadm
 * [Install kubeadm, kubelet and kubectl](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 * [Creating a single control-plane cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
 
-# Useful Helm charts
+# 3. Install Needed Helm charts
+[Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
 * https://hub.helm.sh/charts/bitnami/nginx
 * https://hub.helm.sh/charts/nginx/nginx-ingress
 * https://hub.helm.sh/charts/cloudposse/nfs-provisioner
@@ -35,7 +35,7 @@
 * https://github.com/IBM/charts/tree/master/stable/ibm-istio
 * https://gitlab.com/gitlab-org/charts/gitlab
 
-## Other useful references
+# Other Useful References
 * [Using Variables in Ansible such as `{{ansible_distribution_release}}`](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html)
 * [Use SSH Keys With PuTTY On Windows](https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/)
 * [Ansible Modules Documentation](https://docs.ansible.com/ansible/latest/modules/replace_module.html)
