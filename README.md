@@ -27,7 +27,12 @@ Steps
 * [Install kubeadm, kubelet and kubectl](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 * [Create a single control-plane cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
 
-# 3. Install Needed Helm charts
+# 3. Enable Dashboard
+* [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
+https://github.com/kubernetes/dashboard
+* [Deploy Metrics Server](https://github.com/kubernetes-sigs/metrics-server)
+
+# 4. Useful Helm charts
 [Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
 
 * https://hub.helm.sh/charts/bitnami/nginx
@@ -46,6 +51,7 @@ Steps
 * [How to check if port is in use on Linux or Unix](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)
 * [Private Address Space reserved by Internet Assigned Numbers Authority (IANA)](https://tools.ietf.org/html/rfc1918)
 * [What is the difference between Docker, LXD, and LXC](https://unix.stackexchange.com/questions/254956/what-is-the-difference-between-docker-lxd-and-lxc)
+* [How to Install and Configure VNC on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-16-04)
 
 # Troubleshooting
 
