@@ -21,3 +21,12 @@ Setting up our own Kubernetes/Containers Private Cloud
 * Kubernetes container runtime containerd replaces Docker
   - https://www.ibm.com/cloud/blog/ibm-cloud-kubernetes-service-supports-containerd
   - https://kubernetes.io/blog/2018/05/24/kubernetes-containerd-integration-goes-ga/
+
+# Troubleshooting
+
+* [coredns pods have CrashLoopBackOff or Error state](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm/#coredns-pods-have-crashloopbackoff-or-error-state)
+  - [Troubleshooting Loops In Kubernetes Clusters](https://github.com/coredns/coredns/tree/master/plugin/loop#troubleshooting)
+  - [Ubuntu 16.04 Server Guide - Networking Configuration](https://help.ubuntu.com/16.04/serverguide/network-configuration.html)
+  - [resolvconf — a framework for managing multiple DNS configurations](http://manpages.ubuntu.com/manpages/focal/en/man8/resolvconf.8.html)
+  - [dnsmasq - A lightweight DHCP and caching DNS server](http://manpages.ubuntu.com/manpages/xenial/en/man8/dnsmasq.8.html)
+  - [nameserver 127.0.1.1 in resolv.conf won't go away!](https://askubuntu.com/a/627900/419160)
