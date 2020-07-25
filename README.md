@@ -30,7 +30,17 @@ Steps
 # 3. Enable Dashboard
 * [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
 https://github.com/kubernetes/dashboard
-* [Deploy Metrics Server](https://github.com/kubernetes-sigs/metrics-server)
+* [Container Resource Monitoring](https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/)
+  - [Metrics Server](https://github.com/kubernetes-sigs/metrics-server)
+  - [Prometheus - Overview, Components, Architecture](https://prometheus.io/docs/introduction/overview/)
+  - [Premoetheus Instrumentation](https://prometheus.io/docs/introduction/faq/#instrumentation)
+    - [Monitor machines using Prometheus Node exporter](https://github.com/prometheus/node_exporter)
+    - [Monitor network devices using Prometheus SNMP exporter](https://github.com/prometheus/snmp_exporter)
+    - [Monitor JVM applications via JMX using Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)
+    - [Monitoring Docker container metrics using cAdvisor](https://prometheus.io/docs/guides/cadvisor/)
+  - [Prometheus and Grafana installation using Kustomize](https://kubernetes.github.io/ingress-nginx/user-guide/monitoring/)
+  - [Kubernetes native deployment and management of Prometheus using Prometheus Operator](https://github.com/coreos/prometheus-operator)
+  - [Running Prometheus on Kubernetes](https://linuxacademy.com/blog/kubernetes/running-prometheus-on-kubernetes/)
 
 # 4. Useful Helm charts
 [Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
