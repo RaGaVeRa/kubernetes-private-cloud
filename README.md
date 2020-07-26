@@ -41,6 +41,10 @@ https://github.com/kubernetes/dashboard
   - [Prometheus and Grafana installation using Kustomize](https://kubernetes.github.io/ingress-nginx/user-guide/monitoring/)
   - [Kubernetes native deployment and management of Prometheus using Prometheus Operator](https://github.com/coreos/prometheus-operator)
   - [Running Prometheus on Kubernetes](https://linuxacademy.com/blog/kubernetes/running-prometheus-on-kubernetes/)
+* [Distributed File System using Ceph](https://ceph.io/ceph-storage/)
+  - [Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g) - Slides [here](https://www.slideshare.net/Inktank_Ceph/20190627-intro-to-ceph)
+  - [Run Ceph in Kubernetes using Rook](https://github.com/rook/rook)
+  - [Analysis of Six Distributed File Systems](https://hal.archives-ouvertes.fr/file/index/docid/789086/filename/a_survey_of_dfs.pdf)
 
 # 4. Useful Helm charts
 [Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
