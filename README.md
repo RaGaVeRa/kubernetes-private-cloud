@@ -43,7 +43,8 @@ https://github.com/kubernetes/dashboard
   - [Running Prometheus on Kubernetes](https://linuxacademy.com/blog/kubernetes/running-prometheus-on-kubernetes/)
 * [Distributed File System using Ceph](https://ceph.io/ceph-storage/)
   - [Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g) - Slides [here](https://www.slideshare.net/Inktank_Ceph/20190627-intro-to-ceph)
-  - [Run Ceph in Kubernetes using Rook](https://github.com/rook/rook)
+  - [Run Ceph in Kubernetes using Rook](https://rook.io/)
+    - [Introduction to Rook](https://www.youtube.com/watch?v=pwVsFHy2EdE)
   - [Analysis of Six Distributed File Systems](https://hal.archives-ouvertes.fr/file/index/docid/789086/filename/a_survey_of_dfs.pdf)
 
 # 4. Useful Helm charts
