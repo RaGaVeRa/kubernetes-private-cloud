@@ -44,7 +44,8 @@ https://github.com/kubernetes/dashboard
 * [Distributed File System using Ceph](https://ceph.io/ceph-storage/)
   - [Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g) - Slides [here](https://www.slideshare.net/Inktank_Ceph/20190627-intro-to-ceph)
   - [Run Ceph in Kubernetes using Rook](https://rook.io/)
-    - [Introduction to Rook](https://www.youtube.com/watch?v=pwVsFHy2EdE)
+    - [Introduction to Rook](https://www.youtube.com/watch?v=pwVsFHy2EdE) - Slides [here](https://static.sched.com/hosted_files/kccna18/9f/Rook%20Project%20Intro%20Kubecon%20Seattle%202018.pdf)
+    - [Deep Dive: Rook + Ceph](https://www.youtube.com/watch?v=Mb7oiXQb1ZE) - Slides [here](https://static.sched.com/hosted_files/kccna18/b6/Rook%20Deep%20Dive.pdf)
   - [Analysis of Six Distributed File Systems](https://hal.archives-ouvertes.fr/file/index/docid/789086/filename/a_survey_of_dfs.pdf)
 
 # 4. Useful Helm charts
