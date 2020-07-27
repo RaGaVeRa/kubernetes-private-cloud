@@ -33,7 +33,7 @@ https://github.com/kubernetes/dashboard
 * [Container Resource Monitoring](https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/)
   - [Metrics Server](https://github.com/kubernetes-sigs/metrics-server)
   - [Prometheus - Overview, Components, Architecture](https://prometheus.io/docs/introduction/overview/)
-  - [Premoetheus Instrumentation](https://prometheus.io/docs/introduction/faq/#instrumentation)
+  - [Premetheus Instrumentation](https://prometheus.io/docs/introduction/faq/#instrumentation)
     - [Monitor machines using Prometheus Node exporter](https://github.com/prometheus/node_exporter)
     - [Monitor network devices using Prometheus SNMP exporter](https://github.com/prometheus/snmp_exporter)
     - [Monitor JVM applications via JMX using Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)
