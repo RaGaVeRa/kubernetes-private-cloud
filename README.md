@@ -27,13 +27,14 @@ Steps
 * [Install kubeadm, kubelet and kubectl](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 * [Create a single control-plane cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
 
-# 3. Enable Dashboard
+# 3. Enable Dashboard with Monitoring
 * [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
 https://github.com/kubernetes/dashboard
 * [Container Resource Monitoring](https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/)
   - [Metrics Server](https://github.com/kubernetes-sigs/metrics-server)
   - [Prometheus - Overview, Components, Architecture](https://prometheus.io/docs/introduction/overview/)
     - [Intro + Deep Dive: Prometheus](https://www.youtube.com/watch?v=9GMWvFcQjYI) - Slides [here](https://static.sched.com/hosted_files/kccnceu19/43/Monitoring%2C%20the%20Prometheus%20Way%20-%20KubeCon%20Barcelona%2C%20May%202019.pdf)
+    - [Monitoring Kubernetes Clusters with Prometheus](https://www.youtube.com/watch?v=A760lwRDg9U) - Related blog [here](https://coreos.com/blog/the-prometheus-operator.html)
   - [Prometheus Instrumentation](https://prometheus.io/docs/introduction/faq/#instrumentation)
     - [Monitor machines using Prometheus Node exporter](https://github.com/prometheus/node_exporter)
     - [Monitor network devices using Prometheus SNMP exporter](https://github.com/prometheus/snmp_exporter)
