@@ -52,6 +52,7 @@ https://github.com/kubernetes/dashboard
 * [Ceph Storage Prerequisites](https://github.com/rook/rook/blob/master/Documentation/ceph-quickstart.md#prerequisites)
   - [Use A File As A Linux Block Device](https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device#:~:text=Just%20like%20when%20creating%20a,around%20like%20a%20normal%20file)
   - [How to create virtual block device (loop device/filesystem) in Linux](https://www.thegeekdiary.com/how-to-create-virtual-block-device-loop-device-filesystem-in-linux/)
+  - [Ceph Mimic | Using loop devices as OSD](https://www.netways.de/en/blog/2018/11/14/ceph-mimic-using-loop-devices-as-osd/)
 
 # 5. Useful Helm charts
 [Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
