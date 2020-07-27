@@ -44,7 +44,7 @@ https://github.com/kubernetes/dashboard
 
 # 4. Distributed File System
 * [Distributed storage solution for block storage, object storage, and shared filesystems](https://ceph.io/ceph-storage/)
-* [Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g) - Slides [here](https://www.slideshare.net/Inktank_Ceph/20190627-intro-to-ceph)
+  - [Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g) - Slides [here](https://www.slideshare.net/Inktank_Ceph/20190627-intro-to-ceph)
 * [Run Ceph in Kubernetes using Rook](https://rook.io/)
   - [Introduction to Rook: KubeCon + CloudNativeCon Seattle 2018](https://www.youtube.com/watch?v=pwVsFHy2EdE) - Slides [here](https://static.sched.com/hosted_files/kccna18/9f/Rook%20Project%20Intro%20Kubecon%20Seattle%202018.pdf)
   - [Deep Dive: Rook + Ceph: KubeCon + CloudNativeCon Seattle 2018](https://www.youtube.com/watch?v=Mb7oiXQb1ZE) - Slides [here](https://static.sched.com/hosted_files/kccna18/b6/Rook%20Deep%20Dive.pdf)
