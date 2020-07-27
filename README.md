@@ -43,14 +43,14 @@ https://github.com/kubernetes/dashboard
   - [Running Prometheus on Kubernetes](https://linuxacademy.com/blog/kubernetes/running-prometheus-on-kubernetes/)
 
 # 4. Distributed File System
-* [Distributed storage solution for block storage, object storage, and shared filesystems](https://ceph.io/ceph-storage/)
+* [Ceph - a distributed storage solution for block storage, object storage, and shared filesystems](https://ceph.io/ceph-storage/)
   - [Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g) - Slides [here](https://www.slideshare.net/Inktank_Ceph/20190627-intro-to-ceph)
 * [Run Ceph in Kubernetes using Rook](https://rook.io/)
   - [Introduction to Rook: KubeCon + CloudNativeCon Seattle 2018](https://www.youtube.com/watch?v=pwVsFHy2EdE) - Slides [here](https://static.sched.com/hosted_files/kccna18/9f/Rook%20Project%20Intro%20Kubecon%20Seattle%202018.pdf)
   - [Deep Dive: Rook + Ceph: KubeCon + CloudNativeCon Seattle 2018](https://www.youtube.com/watch?v=Mb7oiXQb1ZE) - Slides [here](https://static.sched.com/hosted_files/kccna18/b6/Rook%20Deep%20Dive.pdf)
   - [Rook-Ceph Deep Drive: KubeCon + CloudNativeCon San Diego 2019](https://www.youtube.com/watch?v=f3Wyk968VR8). From 22:46 to 43:00. Slides [here](https://static.sched.com/hosted_files/kccncna19/37/KubeCon%20San%20Diego_%20Ceph%20Deep%20Dive.pdf).
 * [Ceph Storage Prerequisites](https://github.com/rook/rook/blob/master/Documentation/ceph-quickstart.md#prerequisites)
-  - [Use A File As A Linux Block Device](https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device#:~:text=Just%20like%20when%20creating%20a,around%20like%20a%20normal%20file)
+  - [Use a file as a Linux block device](https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device#:~:text=Just%20like%20when%20creating%20a,around%20like%20a%20normal%20file)
   - [How to create virtual block device (loop device/filesystem) in Linux](https://www.thegeekdiary.com/how-to-create-virtual-block-device-loop-device-filesystem-in-linux/)
   - [Ceph Mimic | Using loop devices as OSD](https://www.netways.de/en/blog/2018/11/14/ceph-mimic-using-loop-devices-as-osd/)
 * [Setup of a Ceph cluster](https://github.com/rook/rook/blob/master/Documentation/ceph-quickstart.md)
