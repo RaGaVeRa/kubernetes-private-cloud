@@ -34,7 +34,7 @@ https://github.com/kubernetes/dashboard
   - [Metrics Server](https://github.com/kubernetes-sigs/metrics-server)
   - [Prometheus - Overview, Components, Architecture](https://prometheus.io/docs/introduction/overview/)
     - [Intro + Deep Dive: Prometheus](https://www.youtube.com/watch?v=9GMWvFcQjYI) - Slides [here](https://static.sched.com/hosted_files/kccnceu19/43/Monitoring%2C%20the%20Prometheus%20Way%20-%20KubeCon%20Barcelona%2C%20May%202019.pdf)
-  - [Premetheus Instrumentation](https://prometheus.io/docs/introduction/faq/#instrumentation)
+  - [Prometheus Instrumentation](https://prometheus.io/docs/introduction/faq/#instrumentation)
     - [Monitor machines using Prometheus Node exporter](https://github.com/prometheus/node_exporter)
     - [Monitor network devices using Prometheus SNMP exporter](https://github.com/prometheus/snmp_exporter)
     - [Monitor JVM applications via JMX using Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)
