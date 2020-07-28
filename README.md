@@ -55,12 +55,18 @@ https://github.com/kubernetes/dashboard
   - [Use a file as a Linux block device](https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device#:~:text=Just%20like%20when%20creating%20a,around%20like%20a%20normal%20file)
   - [How to create virtual block device (loop device/filesystem) in Linux](https://www.thegeekdiary.com/how-to-create-virtual-block-device-loop-device-filesystem-in-linux/)
   - [Ceph Mimic | Using loop devices as OSD](https://www.netways.de/en/blog/2018/11/14/ceph-mimic-using-loop-devices-as-osd/)
+  - [Allow loop device as a LVM backend](https://tracker.ceph.com/issues/36603)
+  - [Ceph Volume Prepare](https://docs.ceph.com/docs/master/ceph-volume/lvm/prepare/)
+  - [Using the ceph-volume utility to deploy OSDs](https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/3/html/administration_guide/using-the-ceph-volume-utility-to-deploy-osds)
 * [Setup of a Ceph cluster](https://github.com/rook/rook/blob/master/Documentation/ceph-quickstart.md)
   - [rook/common.yaml](https://github.com/rook/rook/blob/release-1.3/cluster/examples/kubernetes/ceph/common.yaml)
   - [rook/operator.yaml](https://github.com/rook/rook/blob/release-1.3/cluster/examples/kubernetes/ceph/operator.yaml)
   - [rook/cluster.yaml](https://github.com/rook/rook/blob/release-1.3/cluster/examples/kubernetes/ceph/cluster.yaml)
   - [Ceph Cluster CRD](https://github.com/rook/rook/blob/master/Documentation/ceph-cluster-crd.md)
   - [Setting up consumable storage - Block Devices, Shared Filesystem and Object Storage](https://github.com/rook/rook/blob/master/Documentation/ceph-examples.md#setting-up-consumable-storage)
+    - [Rook toolbox for rook debugging and testing](https://github.com/rook/rook/blob/master/Documentation/ceph-toolbox.md)
+    - [skipping device loop0: Failed to complete 'lsblk /dev/loop0': exit status 1](https://github.com/rook/rook/issues/3190)
+    - [OSD Configuration Settings - storeType: filestore or bluestore](https://rook.io/docs/rook/v1.0/ceph-cluster-crd.html#osd-configuration-settings)
 
 # 5. Useful Helm charts
 [Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
