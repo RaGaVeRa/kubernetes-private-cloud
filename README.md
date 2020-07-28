@@ -26,6 +26,7 @@ Steps
 # 2. Setup Kubernetes using kubeadm
 * [Install kubeadm, kubelet and kubectl](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 * [Create a single control-plane cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
+* [Container Networking From Scratch - Kristen Jacobs, KubeCon + CloudNativeCon Seattle 2018](https://www.youtube.com/watch?v=6v_BDHIgOY8) - Slides [here](https://static.sched.com/hosted_files/kccna18/c1/slides.pdf)
 
 # 3. Enable Dashboard with Monitoring
 * [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
