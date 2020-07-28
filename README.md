@@ -63,8 +63,10 @@ https://github.com/kubernetes/dashboard
   - [rook/operator.yaml](https://github.com/rook/rook/blob/release-1.3/cluster/examples/kubernetes/ceph/operator.yaml)
   - [rook/cluster.yaml](https://github.com/rook/rook/blob/release-1.3/cluster/examples/kubernetes/ceph/cluster.yaml)
   - [Ceph Cluster CRD](https://github.com/rook/rook/blob/master/Documentation/ceph-cluster-crd.md)
-  - [Setting up consumable storage - Block Devices, Shared Filesystem and Object Storage](https://github.com/rook/rook/blob/master/Documentation/ceph-examples.md#setting-up-consumable-storage)
+* [Setting up consumable storage - Block Devices, Shared Filesystem and Object Storage](https://github.com/rook/rook/blob/master/Documentation/ceph-examples.md#setting-up-consumable-storage)
+* Troubleshooting
     - [Rook toolbox for rook debugging and testing](https://github.com/rook/rook/blob/master/Documentation/ceph-toolbox.md)
+    - [OSD pods are not created on my devices](https://rook.io/docs/rook/v1.3/ceph-common-issues.html#osd-pods-are-not-created-on-my-devices)
     - [skipping device loop0: Failed to complete 'lsblk /dev/loop0': exit status 1](https://github.com/rook/rook/issues/3190)
     - [OSD Configuration Settings - storeType: filestore or bluestore](https://rook.io/docs/rook/v1.0/ceph-cluster-crd.html#osd-configuration-settings)
 
