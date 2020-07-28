@@ -63,12 +63,13 @@ https://github.com/kubernetes/dashboard
   - [rook/operator.yaml](https://github.com/rook/rook/blob/release-1.3/cluster/examples/kubernetes/ceph/operator.yaml)
   - [rook/cluster.yaml](https://github.com/rook/rook/blob/release-1.3/cluster/examples/kubernetes/ceph/cluster.yaml)
   - [Ceph Cluster CRD](https://github.com/rook/rook/blob/master/Documentation/ceph-cluster-crd.md)
-* [Setting up consumable storage - Block Devices, Shared Filesystem and Object Storage](https://github.com/rook/rook/blob/master/Documentation/ceph-examples.md#setting-up-consumable-storage)
-* [Troubleshooting](https://rook.io/docs/rook/v1.3/ceph-common-issues.html)
+* [Rook Ceph Common Issues](https://rook.io/docs/rook/v1.3/ceph-common-issues.html)
     - [Rook toolbox for rook debugging and testing](https://github.com/rook/rook/blob/master/Documentation/ceph-toolbox.md)
     - [OSD pods are not created on my devices](https://rook.io/docs/rook/v1.3/ceph-common-issues.html#osd-pods-are-not-created-on-my-devices)
     - [skipping device loop0: Failed to complete 'lsblk /dev/loop0': exit status 1](https://github.com/rook/rook/issues/3190)
     - [OSD Configuration Settings - storeType: filestore or bluestore](https://rook.io/docs/rook/v1.0/ceph-cluster-crd.html#osd-configuration-settings)
+    - [GParted - a free partition editor for graphically managing your disk partitions.](https://gparted.org/)
+* [Setting up consumable storage - Block Devices, Shared Filesystem and Object Storage](https://github.com/rook/rook/blob/master/Documentation/ceph-examples.md#setting-up-consumable-storage)
 
 # 5. Useful Helm charts
 [Cloud Native Computing Foundation (CNCF) Survey 2019 Report](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
